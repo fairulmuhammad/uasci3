@@ -52,7 +52,7 @@ public function print_nilai() {
     $mahasiswa_id = $this->session->userdata('user_id');
     $data['mahasiswa_scores'] = $this->student_model->get_mahasiswa_scores([$mahasiswa_id]);
 
-    $filename = "Nilai_Mahasiswa_" . date('Y-m-d');
+    $filename = "Nilai_Mahasiswa_ ($mahasiswa_id)" . date('Y-m-d');
 
     $this->load->library('pdf');
 
