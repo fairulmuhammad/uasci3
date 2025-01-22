@@ -1,0 +1,20 @@
+{
+	"name": "muham/uasci3",
+	"autoload": {
+		"psr-4": {
+			"Muham\\Uasci3\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "fairulmuhammad",
+			"email": "muhammadfairul13@students.amikom.ac.id"
+		}
+	],
+	"config": {
+		"platform-check": false
+	},
+	"require": {
+		"setasign/fpdf": "^1.8"
+	}
+}
